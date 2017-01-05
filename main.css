@@ -1,0 +1,68 @@
+@include foundation-menu;
+@include foundation-flex-classes;
+@include motion-ui-transitions;
+
+/*Navbar Styling*/
+.top-bar-title img {
+	margin-left: 60px;
+	margin-top: 20px;
+}
+
+.navbar-inverse{
+	background-color: #fff;
+	border: none;
+}
+
+.pull-right{
+	margin-top: 20px;
+}
+
+.material-icons{
+	margin-top: -10px;
+	background: #2c3e50;
+	box-sizing: 10px;
+}
+
+.material-icons:hover{
+	color: #2c3e50;
+}
+
+#menu:hover {
+	color: #f1c40f;
+}
+
+img {
+	width: 100%;
+	background-size: cover;
+	position: relative;
+}
+
+
+.hero{
+	text-align:center;
+	position:absolute;
+	top:180px;
+	width:100%;
+	color:white;
+}
+
+hr.line{
+	max-width: 150px;
+	border-top: solid 3px;
+    color: #f1c40f;
+}
+
+.col{
+	column-count:2; 
+	column-gap: 30px;
+	padding:100px;
+}
+
+/*Footer*/
+footer p{
+	text-align: center;
+	padding: 10px 0;
+	margin: 0px;
+	box-sizing: border-box;
+	background-color: #bdc3c7;
+}
